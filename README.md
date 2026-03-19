@@ -72,13 +72,6 @@ python main.py -fs Base+Network -t CI-CP
 └── README.md                   # Project documentation
 ```
 
-## Feature Sets
-Different feature sets are used for classification:
-- **Base**: Age, Sex, Education.
-- **Base+Network**: Base + connectivity metrics (functional and structural network measures).
-- **Base+Network+MRI**: Base+Network + MRI-derived volumetric measures.
-- **Base+Network+Clin**: Base+Network + clinical measures (MS subtype, disease duration, etc.).
-
 ## Model Training and Evaluation
 1. **Data Preprocessing**:
    - Missing values are imputed.
@@ -94,11 +87,6 @@ Different feature sets are used for classification:
    - Area Under the Receiver Operating Characteristic Curve (AUROC)
    - Precision, Recall, F1-score
    - SHAP values for feature importance
-
-## Results
-- The best-performing model achieved an AUROC of **0.81** for cognitive impairment classification.
-- DGM structural connectivity and DAN participation coefficients were the most predictive features.
-- External validation showed an AUROC of **0.76**, confirming model generalizability.
 
 ## Acknowledgments
 This work is part of research on cognitive impairment in MS. The dataset used in this project is not publicly available due to privacy concerns.
