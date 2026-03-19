@@ -134,8 +134,8 @@ def main():
     #n_folds_outer = 2
     #repetitions = 1
 
-    n_folds_inner = 5
-    n_folds_outer = 10
+    n_folds_inner = 10
+    n_folds_outer = 5
     repetitions = 100
 
     scoring = {"AUC": "roc_auc"}
