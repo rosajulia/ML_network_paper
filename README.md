@@ -58,18 +58,19 @@ python main.py -fs Base+Network -t CI-CP
 
 ## Project Structure
 ```
-├── scripts/                   # Python scripts
-│   ├── data_loader.py         # Data loading and preprocessing
-│   ├── preprocessing.py       # Feature scaling and encoding
-│   ├── models.py              # Model creation and hyperparameter tuning
-│   ├── cross_validation_methods.py # Nested cross-validation
-│   ├── train_test_final_model.py   # Final model training and testing
-│   ├── evaluation.py          # Performance metrics and visualization
+├── scripts/                         # Python scripts
+│   ├── data_loader.py               # Data loading and preprocessing
+│   ├── preprocessing.py             # Feature scaling and encoding
+│   ├── models.py                    # Model creation and hyperparameter tuning
+│   ├── cross_validation_methods.py  # Nested cross-validation
+│   ├── train_test_final_model.py    # Final model training and testing
+│   ├── evaluation.py                # Performance metrics and visualization
+│   ├── run_seperate_model.py        # Run separate model
 │
-├── visualization/             # Output plots and results
+├── visualization/                   # Output plots and results
 │
-├── main.py                    # Entry point script
-└── README.md                   # Project documentation
+├── main.py                          # Entry point script
+└── README.md                        # Project documentation
 ```
 
 ## Model Training and Evaluation
